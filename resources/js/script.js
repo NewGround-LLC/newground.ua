@@ -6,7 +6,6 @@ init();
 function init() {
     handlePageLoaded();
     handleLinkClick();
-    animatePage();
 }
 
 function handlePageLoaded() {
@@ -41,8 +40,4 @@ function handleLinkClick() {
             }
         }
     });
-}
-
-function animatePage() {
-    new WOW().init();
 }
