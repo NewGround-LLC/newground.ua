@@ -1,0 +1,19 @@
+{
+  "name": "newground-homepage",
+  "version": "1.0.0",
+  "description": "The wep-page for newground",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "less": "^2.7.2",
+    "nicescroll": "^3.7.4"
+  },
+  "scripts": {
+    "compile-less": "lessc ./resources/css/style ./resources/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewGround-LLC/NewGroundUA.github.io.git"
+  },
+  "homepage": "https://github.com/NewGround-LLC/NewGroundUA.github.io#readme"
+}
