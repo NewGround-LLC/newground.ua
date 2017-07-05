@@ -5,8 +5,8 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "jquery": "^3.2.1",
-    "less": "^2.7.2",
-    "nicescroll": "^3.7.4"
+    "nicescroll": "^3.7.4",
+    "less": "^2.7.2"
   },
   "scripts": {
     "compile-less": "lessc ./resources/css/style ./resources/css/style.css"
