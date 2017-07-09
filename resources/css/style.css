@@ -11,11 +11,14 @@ body {
 
 header {
   background: url(../images/header_bg.jpg) no-repeat; }
-  header .navbar-default .navbar-nav > li > a {
+  header .navbar .navbar-header img {
+    width: 220px;
+    height: 42px; }
+  header .navbar ul.navbar-nav li a {
     color: #777;
     text-transform: uppercase;
     margin: 10px; }
-    header .navbar-default .navbar-nav > li > a:hover {
+    header .navbar ul.navbar-nav li a:hover {
       color: #0077be; }
 
 .container .home_text {
