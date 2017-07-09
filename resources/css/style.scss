@@ -13,10 +13,13 @@ body {
   h1, h2, h3, h4, h5, h6 {
     font-family: ROBOTO, sans-serif;;
   }
+  .block-top {
+    margin-top: 50px;
+  }
 }
 
 // Header
-header {
+.header {
   background: url(../images/header_bg.jpg) no-repeat;
   .navbar {
     .navbar-header {
@@ -38,22 +41,24 @@ header {
 
 // Container
 .container {
-  .home_text {
+  .home-text {
     padding-top: 150px;
     padding-bottom: 100px;
+    color: #404040;
+    font-size: 14px;
+    text-transform: uppercase;
     h2 {
       color: #010101;
       font-size: 40px;
       text-transform: uppercase;
       letter-spacing: 13px;
     }
-    p {
-      color: #404040;
-      font-size: 14px;
-      text-transform: uppercase;
+    .home-image img {
+      width: 300px;
+      height: 200px;
     }
   }
-  .we_title {
+  .we-do {
     h2 {
       font-size: 25px;
       color: #3d3d3d;
@@ -62,18 +67,14 @@ header {
       letter-spacing: 6px;
     }
   }
-  &.services{
-    padding-top: 90px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    .container{
-      border-bottom: 1px solid #ddd;
-    }
-  }
   .single_service {
     i {
       font-size: 25px;
       color: #0077be;
+      img {
+        width: 90px;
+        height: 90px;
+      }
     }
     h2 {
       color: #000000;
@@ -99,52 +100,48 @@ header {
     }
   }
   .experts {float:left;}
-  &.work_area {
-    width: 100%;
-    .no_padding{
-      padding-left: 0px;
-      padding-right: 0px;
+}
+.work_area {
+  width: 100%;
+  .no_padding{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .single_image {
+    margin-right: 3px;
+    position: relative;
+    img {
+      width: 100%;
     }
-    .single_image {
-      margin-right: 3px;
-      position: relative;
+    &:hover div.image_overlay {
+      opacity: 1;
+    }
+    .image_overlay {
+      position: absolute;
+      width: 100%;
+      height: 230px;
+      background: rgba(0,119,190,.9);
+      top: 0;
+      opacity: 0;
       transition: all 1s;
-      img {
-        width: 100%;
-      }
-      &:hover div.image_overlay {
-        opacity: 1;
-      }
-      .image_overlay {
+      h2, h4, p {
         position: absolute;
-        width: 100%;
-        height: 230px;
-        background: rgba(0,119,190,.9);
-        left: 0;
-        top: 0;
-        opacity: 0;
-        transition: all 1s;
-        h2, h4, a {
-          position: absolute;
-          text-transform: uppercase;
-          color: #fff;
-        }
-        a {
-          top: 20px;
-          right: 20px;
-          text-decoration: none;
-        }
-        h2 {
-          bottom: 28px;
-          font-size: 25px;
-          letter-spacing: 3px;
-          left: 20px;
-        }
-        h4 {
-          bottom: 11px;
-          font-size: 14px;
-          left: 20px;
-        }
+        text-transform: uppercase;
+        color: #fff;
+      }
+      p {
+        top: 20px;
+        right: 20px;
+      }
+      h2 {
+        bottom: 28px;
+        font-size: 25px;
+        left: 20px;
+      }
+      h4 {
+        bottom: 11px;
+        font-size: 14px;
+        left: 20px;
       }
     }
   }
@@ -152,20 +149,13 @@ header {
 .work_title {
   h1 {
     font-size: 25px;
-    color: #3d3d3d;
     letter-spacing: 5px;
-    padding-top: 80px;
     text-transform: uppercase;
-    margin-bottom: 20px;
-  }
-  img {
-    margin-bottom: 30px;
   }
   p {
     font-size: 17px;
-    color: #000;
     letter-spacing: 2px;
-    margin-bottom: 100px;
+    margin-top: 20px;
   }
 }
 .pad_top {
@@ -239,8 +229,6 @@ header {
   }
 }
 .work-with {
-  padding-bottom: 60px;
-  padding-top: 10px;
   color: #636363;
   h3 {
     font-size: 14px;
@@ -248,10 +236,17 @@ header {
   }
 }
 /*Footer*/
-footer {
+.footer {
   background-color: #f1f1f1;
+  margin-top: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
+  .footer-logo {
+    img {
+      width: 220px;
+      height: 42px;
+    }
+  }
   .social {
     padding-top: 65px;
     h2 {
