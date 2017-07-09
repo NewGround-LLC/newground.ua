@@ -1,16 +1,14 @@
 {
   "name": "new-ground",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "newground web page",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch-sass": "sass --watch ./resources/css/style.scss"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NewGround-LLC/NewGroundUA.github.io.git"
   },
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/NewGround-LLC/NewGroundUA.github.io/issues"
