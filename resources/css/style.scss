@@ -607,24 +607,11 @@ body {
 }
 /*-- services --*/
 .services {
-  .icon_center {
+  .icon-center {
     float: left;
     margin-left: 7%;
-    h2 {
-      font-size: 18px;
+    img {
+      width: 90px;
     }
-    .single_ser {
-      padding-bottom: 50px;
-      padding-top: 50px;
-      h2 {
-        text-align: center;
-      }
-    }
-  }
-}
-.city img {
-  img {
-    display: block;
-    margin: auto;
   }
 }

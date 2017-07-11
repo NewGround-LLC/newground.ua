@@ -471,19 +471,10 @@ body {
     float: right; }
 
 /*-- services --*/
-.services .icon_center {
+.services .icon-center {
   float: left;
   margin-left: 7%; }
-  .services .icon_center h2 {
-    font-size: 18px; }
-  .services .icon_center .single_ser {
-    padding-bottom: 50px;
-    padding-top: 50px; }
-    .services .icon_center .single_ser h2 {
-      text-align: center; }
-
-.city img img {
-  display: block;
-  margin: auto; }
+  .services .icon-center img {
+    width: 90px; }
 
 /*# sourceMappingURL=style.css.map */
