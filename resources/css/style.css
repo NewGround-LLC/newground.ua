@@ -43,19 +43,12 @@ body {
   text-transform: uppercase;
   margin-top: 0;
   letter-spacing: 6px; }
-.container .single_service i {
-  font-size: 25px;
-  color: #0077be; }
-  .container .single_service i img {
-    width: 90px;
-    height: 90px; }
+.container .single_service img {
+  height: 90px; }
 .container .single_service h2 {
   color: #000000;
   font-size: 25px;
   text-transform: uppercase; }
-.container .single_service p {
-  color: #404040;
-  font-size: 14px; }
 .container about-title h2 {
   font-size: 25px;
   color: #3d3d3d;
@@ -99,13 +92,6 @@ body {
         bottom: 11px;
         font-size: 14px;
         left: 20px; }
-
-.work_title h2 {
-  letter-spacing: 5px; }
-.work_title p {
-  font-size: 17px;
-  letter-spacing: 2px;
-  margin-top: 20px; }
 
 .baton {
   margin-top: 50px; }
@@ -451,24 +437,16 @@ body {
 .development {
   width: 100%; }
   .development .development-text {
-    height: 200px;
-    display: block;
     float: left; }
-    .development .development-text h2 {
-      color: #0077be;
-      font-size: 20px;
-      font-weight: 400;
-      letter-spacing: 1,5; }
     .development .development-text p {
       color: #5f6970;
       margin: 1em 0 4em;
-      font-size: 17px;
-      letter-spacing: 0,8; }
-      .development .development-text p span {
-        display: block;
-        margin: 3px 0; }
+      font-size: 17px; }
   .development .img_service {
     float: right; }
+    .development .img_service img {
+      width: 550px;
+      height: 251px; }
 
 /*-- services --*/
 .services .icon-center {
