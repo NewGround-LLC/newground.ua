@@ -95,7 +95,7 @@ body {
     padding-right: 0px;
   }
   .single_image {
-    margin-right: 3px;
+    margin: 0 3px 3px 0;
     position: relative;
     img {
       width: 100%;
@@ -290,9 +290,7 @@ body {
       }
       &:hover, &.active {
         h5 {
-          background: #fff;
           color: #0077be;
-          text-decoration: none;
           border: #0077be solid 1px;
         }
       }

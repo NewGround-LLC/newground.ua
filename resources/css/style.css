@@ -63,7 +63,7 @@ body {
     padding-left: 0px;
     padding-right: 0px; }
   .work-area .single_image {
-    margin-right: 3px;
+    margin: 0 3px 3px 0;
     position: relative; }
     .work-area .single_image img {
       width: 100%; }
@@ -223,9 +223,7 @@ body {
       border: #C2C2C2 solid 1px;
       color: #7C7C7C; }
     .filters ul li a:hover h5, .filters ul li a.active h5 {
-      background: #fff;
       color: #0077be;
-      text-decoration: none;
       border: #0077be solid 1px; }
 
 .sidebar {
