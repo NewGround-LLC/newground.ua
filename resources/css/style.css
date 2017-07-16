@@ -8,8 +8,6 @@ body {
     text-decoration: none; }
   body h1, body h2, body h3, body h4, body h5, body h6 {
     font-family: ROBOTO, sans-serif; }
-  body .block-top {
-    margin-top: 50px; }
 
 .header {
   background: url(../images/header_bg.jpg) no-repeat; }
@@ -23,20 +21,8 @@ body {
     .header .navbar ul.navbar-nav li a:hover {
       color: #0077be; }
 
-.container .home-text {
-  padding-top: 150px;
-  padding-bottom: 100px;
-  color: #404040;
-  font-size: 14px;
-  text-transform: uppercase; }
-  .container .home-text h2 {
-    color: #010101;
-    font-size: 40px;
-    text-transform: uppercase;
-    letter-spacing: 13px; }
-  .container .home-text .home-image img {
-    width: 300px;
-    height: 200px; }
+.container.margin-from-header {
+  margin-top: 70px; }
 .container .we-do h2 {
   font-size: 25px;
   color: #3d3d3d;
@@ -49,75 +35,74 @@ body {
   color: #000000;
   font-size: 25px;
   text-transform: uppercase; }
-.container about-title h2 {
-  font-size: 25px;
-  color: #3d3d3d;
-  text-transform: uppercase;
-  margin-top: 85px;
-  letter-spacing: 6px;
-  margin-bottom: 21px; }
 
-.work-area {
-  width: 100%; }
-  .work-area .no_padding {
-    padding-left: 0px;
-    padding-right: 0px; }
-  .work-area .single_image {
-    margin: 0 3px 3px 0;
-    position: relative; }
-    .work-area .single_image img {
-      width: 100%; }
-    .work-area .single_image:hover div.image_overlay {
-      opacity: 1; }
-    .work-area .single_image .image_overlay {
-      position: absolute;
-      width: 100%;
-      height: 230px;
-      background: rgba(0, 119, 190, 0.9);
-      top: 0;
-      opacity: 0;
-      transition: all 1s; }
-      .work-area .single_image .image_overlay h2, .work-area .single_image .image_overlay h4, .work-area .single_image .image_overlay p {
-        position: absolute;
-        text-transform: uppercase;
-        color: #fff; }
-      .work-area .single_image .image_overlay p {
-        top: 20px;
-        right: 20px; }
-      .work-area .single_image .image_overlay h2 {
-        bottom: 28px;
-        font-size: 25px;
-        left: 20px; }
-      .work-area .single_image .image_overlay h4 {
-        bottom: 11px;
-        font-size: 14px;
-        left: 20px; }
-
-.baton {
+.row.margin-from-top {
   margin-top: 50px; }
-  .baton .exbutton, .baton .exbutton2, .baton .exbutton3 {
-    color: #0077be;
-    background-color: #fff;
-    opacity: 0.7;
-    font-weight: bold;
-    border-radius: 5px;
-    outline: none;
-    padding: 10px 40px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transition: all 1s;
-    margin-top: 300px;
-    position: absolute; }
-    .baton .exbutton:hover, .baton .exbutton2:hover, .baton .exbutton3:hover {
-      color: #fff;
-      background-color: #0077be;
-      border-color: #0077be; }
-  .baton .exbutton {
-    margin-left: 550px; }
-  .baton .exbutton2 {
-    margin-left: 100px; }
-  .baton .exbutton3 {
-    margin-left: 1000px; }
+
+.work-area .no_padding {
+  padding-left: 0px;
+  padding-right: 0px; }
+.work-area .single_image {
+  margin: 0 3px 3px 0;
+  position: relative; }
+  .work-area .single_image img {
+    width: 100%; }
+  .work-area .single_image:hover div.image_overlay {
+    opacity: 1; }
+  .work-area .single_image .image_overlay {
+    position: absolute;
+    width: 100%;
+    height: 230px;
+    background: rgba(0, 119, 190, 0.9);
+    top: 0;
+    opacity: 0;
+    transition: all 1s; }
+    .work-area .single_image .image_overlay h2, .work-area .single_image .image_overlay h4, .work-area .single_image .image_overlay p {
+      position: absolute;
+      text-transform: uppercase;
+      color: #fff; }
+    .work-area .single_image .image_overlay p {
+      top: 20px;
+      right: 20px; }
+    .work-area .single_image .image_overlay h2 {
+      bottom: 28px;
+      font-size: 25px;
+      left: 20px; }
+    .work-area .single_image .image_overlay h4 {
+      bottom: 11px;
+      font-size: 14px;
+      left: 20px; }
+
+.entry-text p {
+  color: #404040;
+  font-size: 14px;
+  text-transform: uppercase; }
+
+.about-title h2 {
+  text-transform: uppercase;
+  letter-spacing: 6px; }
+
+.experts button {
+  position: absolute;
+  transform: translate(-50%, -110%);
+  padding: 10px 40px;
+  background-color: #fff;
+  color: #337ab7;
+  opacity: 0.7;
+  font-weight: bold;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+  .experts button:hover {
+    color: #fff;
+    background-color: #0077be;
+    border-color: #0077be; }
+.experts img {
+  width: 100%; }
+
+.positions h2 {
+  text-transform: uppercase;
+  letter-spacing: 6px; }
 
 /*Contact*/
 .single_contact_info {
