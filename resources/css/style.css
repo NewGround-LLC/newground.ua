@@ -403,21 +403,13 @@ body {
     font-weight: 300; }
 
 /* Contacts */
-.contacts {
-  padding-top: 20px;
-  float: left;
-  width: 33%; }
-  .contacts .single_contact h2 {
-    color: #000000;
-    font-size: 20px;
-    text-transform: uppercase;
-    text-align: center; }
-  .contacts .single_contact .contact_icon {
-    margin-left: 25%; }
-  .contacts .single_contact p {
-    color: #404040;
-    font-size: 16px;
-    text-align: center; }
+.contacts h2 {
+  color: #000000;
+  font-size: 20px;
+  text-transform: uppercase; }
+.contacts p {
+  color: #404040;
+  font-size: 16px; }
 
 /*-- development --*/
 .development {
