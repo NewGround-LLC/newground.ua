@@ -9,6 +9,9 @@ body {
   body h1, body h2, body h3, body h4, body h5, body h6 {
     font-family: ROBOTO, sans-serif; }
 
+.achievements img, .services img, .technologies img {
+  width: 90px; }
+
 .header {
   background: url(../images/header_bg.jpg) no-repeat; }
   .header .navbar .navbar-header img {
@@ -23,12 +26,6 @@ body {
 
 .container.margin-from-header {
   margin-top: 70px; }
-.container .single_service img {
-  height: 90px; }
-.container .single_service h2 {
-  color: #000000;
-  font-size: 25px;
-  text-transform: uppercase; }
 
 .row.margin-from-top, .container-fluid.margin-from-top {
   margin-top: 50px; }
@@ -74,19 +71,9 @@ body {
     width: 300px;
     height: 200px; }
 
-.achievements img, .index-services img {
-  height: 90px; }
-
-.index-services-title h1 {
+.services h1 {
   text-transform: uppercase;
   letter-spacing: 6px; }
-
-.index-services img {
-  height: 90px; }
-.index-services h2 {
-  color: #000000;
-  font-size: 25px;
-  text-transform: uppercase; }
 
 .entry-text p {
   color: #404040;
@@ -117,6 +104,10 @@ body {
 .positions h2 {
   text-transform: uppercase;
   letter-spacing: 6px; }
+
+.technologies .icon-center {
+  float: left;
+  margin-left: 7%; }
 
 /*Contact*/
 .single_contact_info {
@@ -248,12 +239,5 @@ body {
     .development .img_service img {
       width: 550px;
       height: 251px; }
-
-/*-- services --*/
-.services .icon-center {
-  float: left;
-  margin-left: 7%; }
-  .services .icon-center img {
-    width: 90px; }
 
 /*# sourceMappingURL=style.css.map */

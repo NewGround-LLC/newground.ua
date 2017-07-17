@@ -15,6 +15,14 @@ body {
   }
 }
 
+// components //
+.achievements, .services, .technologies{
+  img {
+    width: 90px;
+  }
+}
+// components - the end //
+
 // Header //
 .header {
   background: url(../images/header_bg.jpg) no-repeat;
@@ -40,16 +48,6 @@ body {
 .container {
   &.margin-from-header {
     margin-top: 70px;
-  }
-  .single_service {
-    img {
-      height: 90px;
-    }
-    h2 {
-      color: #000000;
-      font-size: 25px;
-      text-transform: uppercase;
-    }
   }
 }
 // row //
@@ -112,25 +110,10 @@ body {
     height: 200px;
   }
 }
-.achievements, .index-services {
-  img {
-    height: 90px;
-  }
-}
-.index-services-title {
+.services {
   h1 {
     text-transform: uppercase;
     letter-spacing: 6px;
-  }
-}
-.index-services {
-  img {
-    height: 90px;
-  }
-  h2 {
-    color: #000000;
-    font-size: 25px;
-    text-transform: uppercase;
   }
 }
 // index - the end //
@@ -177,6 +160,15 @@ body {
   }
 }
 // about - the end //
+
+// solutions //
+.technologies {
+  .icon-center {
+    float: left;
+    margin-left: 7%;
+  }
+}
+// solutions - the end //
 
 /*Contact*/
 .single_contact_info {
@@ -339,16 +331,6 @@ body {
     img {
       width: 550px;
       height: 251px;
-    }
-  }
-}
-/*-- services --*/
-.services {
-  .icon-center {
-    float: left;
-    margin-left: 7%;
-    img {
-      width: 90px;
     }
   }
 }
