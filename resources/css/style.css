@@ -9,7 +9,7 @@ body {
   body h1, body h2, body h3, body h4, body h5, body h6 {
     font-family: ROBOTO, sans-serif; }
 
-.achievements img, .services img, .technologies img {
+.achievements img, .services img, .technologies img, .workflow img {
   width: 90px; }
 
 .header {
@@ -108,6 +108,13 @@ body {
 .technologies .icon-center {
   float: left;
   margin-left: 7%; }
+
+.development p {
+  color: #5f6970;
+  margin: 1em 0 4em;
+  font-size: 17px; }
+.development img {
+  height: 251px; }
 
 /*Contact*/
 .single_contact_info {
@@ -224,20 +231,5 @@ body {
 .contacts p {
   color: #404040;
   font-size: 16px; }
-
-/*-- development --*/
-.development {
-  width: 100%; }
-  .development .development-text {
-    float: left; }
-    .development .development-text p {
-      color: #5f6970;
-      margin: 1em 0 4em;
-      font-size: 17px; }
-  .development .img_service {
-    float: right; }
-    .development .img_service img {
-      width: 550px;
-      height: 251px; }
 
 /*# sourceMappingURL=style.css.map */

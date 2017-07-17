@@ -16,7 +16,7 @@ body {
 }
 
 // components //
-.achievements, .services, .technologies{
+.achievements, .services, .technologies, .workflow {
   img {
     width: 90px;
   }
@@ -169,6 +169,21 @@ body {
   }
 }
 // solutions - the end //
+// 1erp //
+.development {
+  p {
+    color: #5f6970;
+    margin: 1em 0 4em;
+    font-size: 17px;
+  }
+  img {
+    height: 251px;
+  }
+}
+.workflow {
+
+}
+// 1erp - the end //
 
 /*Contact*/
 .single_contact_info {
@@ -313,24 +328,5 @@ body {
   p {
     color: #404040;
     font-size: 16px;
-  }
-}
-/*-- development --*/
-.development {
-  width: 100%;
-  .development-text {
-    float: left;
-    p {
-      color: #5f6970;
-      margin: 1em 0 4em;
-      font-size: 17px;
-    }
-  }
-  .img_service {
-    float: right;
-    img {
-      width: 550px;
-      height: 251px;
-    }
   }
 }
