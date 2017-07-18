@@ -208,6 +208,19 @@ body {
   }
 }
 // cases - the end //
+// contacts //
+.contacts {
+  h2 {
+    color: #000000;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  p {
+    color: #404040;
+    font-size: 16px;
+  }
+}
+// contacts - the end //
 
 /*Contact*/
 .single_contact_info {
@@ -310,17 +323,5 @@ body {
       font-weight:700;
       text-decoration:none;
     }
-  }
-}
-/* Contacts */
-.contacts {
-  h2 {
-    color: #000000;
-    font-size: 20px;
-    text-transform: uppercase;
-  }
-  p {
-    color: #404040;
-    font-size: 16px;
   }
 }

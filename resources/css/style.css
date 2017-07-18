@@ -130,6 +130,14 @@ body {
     color: #0077be;
     border: #0077be solid 1px; }
 
+.contacts h2 {
+  color: #000000;
+  font-size: 20px;
+  text-transform: uppercase; }
+.contacts p {
+  color: #404040;
+  font-size: 16px; }
+
 /*Contact*/
 .single_contact_info {
   padding-bottom: 21px;
@@ -214,14 +222,5 @@ body {
       text-transform: uppercase;
       font-weight: 700;
       text-decoration: none; }
-
-/* Contacts */
-.contacts h2 {
-  color: #000000;
-  font-size: 20px;
-  text-transform: uppercase; }
-.contacts p {
-  color: #404040;
-  font-size: 16px; }
 
 /*# sourceMappingURL=style.css.map */
