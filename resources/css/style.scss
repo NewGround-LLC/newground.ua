@@ -21,48 +21,12 @@ body {
     width: 90px;
   }
 }
-// components - the end //
-
-// Header //
-.header {
-  background: url(../images/header_bg.jpg) no-repeat;
-  .navbar {
-    .navbar-header {
-      img {
-        width: 220px;
-        height: 42px;
-      }
-    }
-    ul.navbar-nav li a {
-      color: #777;
-      text-transform: uppercase;
-      margin: 10px;
-      &:hover {
-        color: #0077be;
-      }
-    }
-  }
-}
-
-// container
-.container {
-  &.margin-from-header {
-    margin-top: 70px;
-  }
-}
-// row //
-.row, .container-fluid {
-  &.margin-from-top {
-    margin-top: 50px;
-  }
-}
 .work-area {
   .no_padding {
     padding: 0;
   }
   .single-image {
     margin-left: 3px;
-    position: relative;
     img {
       width: 100%;
     }
@@ -97,6 +61,41 @@ body {
         left: 20px;
       }
     }
+  }
+}
+// components - the end //
+
+// Header //
+.header {
+  background: url(../images/header_bg.jpg) no-repeat;
+  .navbar {
+    .navbar-header {
+      img {
+        width: 220px;
+        height: 42px;
+      }
+    }
+    ul.navbar-nav li a {
+      color: #777;
+      text-transform: uppercase;
+      margin: 10px;
+      &:hover {
+        color: #0077be;
+      }
+    }
+  }
+}
+
+// container
+.container {
+  &.margin-from-header {
+    margin-top: 70px;
+  }
+}
+// row //
+.row, .container-fluid {
+  &.margin-from-top {
+    margin-top: 50px;
   }
 }
 // index //
@@ -184,6 +183,31 @@ body {
 
 }
 // 1erp - the end //
+// cases //
+.filters {
+  ul li {
+    display: inline-block;
+    margin: 0 5px;
+    a {
+      h5 {
+        border-radius: 4px;
+        font-size: 12px;
+        line-height: 20px;
+        padding: 10px 22px;
+        text-transform: uppercase;
+        border: #C2C2C2 solid 1px;
+        color: #7C7C7C;
+      }
+      &:hover, &.active {
+        h5 {
+          color: #0077be;
+          border: #0077be solid 1px;
+        }
+      }
+    }
+  }
+}
+// cases - the end //
 
 /*Contact*/
 .single_contact_info {
@@ -285,36 +309,6 @@ body {
       text-transform:uppercase;
       font-weight:700;
       text-decoration:none;
-    }
-  }
-}
-/* Portfolio Filters */
-
-.filters {
-  margin-bottom: 40px;
-  text-align: center;
-  ul li {
-    display: inline-block;
-    margin: 0 5px;
-    a {
-      h5 {
-        border-radius: 4px;
-        font-size: 12px;
-        line-height: 20px;
-        margin-bottom: 5px;
-        padding: 10px 22px;
-        text-transform: uppercase;
-        transition: all 0.3s ease-in-out 0s;
-        background: #fff;
-        border: #C2C2C2 solid 1px;
-        color: #7C7C7C;
-      }
-      &:hover, &.active {
-        h5 {
-          color: #0077be;
-          border: #0077be solid 1px;
-        }
-      }
     }
   }
 }
