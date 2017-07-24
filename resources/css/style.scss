@@ -195,34 +195,6 @@ body {
     font-size: 14px;
   }
 }
-.about-title {
-  h2 {
-    text-transform: uppercase;
-    letter-spacing: 6px;
-  }
-}
-.experts {
-  button {
-    position: absolute;
-    transform: translate(-50%, -110%);
-    padding: 10px 40px;
-    background-color: #fff;
-    color: #337ab7;
-    opacity:0.7;
-    font-weight:bold;
-    border-radius: 5px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    &:hover {
-      color: #fff;
-      background-color: #0077be;
-      border-color: #0077be;
-    }
-  }
-  img {
-    width: 100%;
-  }
-}
 .positions {
   h2 {
     text-transform: uppercase;
