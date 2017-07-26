@@ -214,6 +214,11 @@ body {
   h3 {
     color: #333;
   }
+  a {
+    &:hover, &:link {
+      text-decoration: none;
+    }
+  }
 }
 // solutions - the end //
 

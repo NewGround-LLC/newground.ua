@@ -150,6 +150,8 @@ body {
 
 .services h3 {
   color: #333; }
+.services a:hover, .services a:link {
+  text-decoration: none; }
 
 .development p {
   color: #5f6970;
