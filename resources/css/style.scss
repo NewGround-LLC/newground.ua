@@ -240,21 +240,25 @@ body {
   ul li {
     display: inline-block;
     margin: 0 5px;
-    a {
-      h5 {
-        border-radius: 4px;
-        font-size: 12px;
-        line-height: 20px;
-        padding: 10px 22px;
-        text-transform: uppercase;
-        border: #C2C2C2 solid 1px;
-        color: #7C7C7C;
-      }
+
+    button.btn {
+      border-radius: 4px;
+
+      font-size: 12px;
+      line-height: 20px;
+      padding: 10px 22px;
+      text-transform: uppercase;
+      border: #C2C2C2 solid 1px;
+      color: #7C7C7C;
+
       &:hover, &.active {
         h5 {
           color: #0077be;
           border: #0077be solid 1px;
         }
+      }
+      &:focus {
+        outline: none;
       }
     }
   }

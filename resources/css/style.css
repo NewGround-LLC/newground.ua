@@ -163,7 +163,7 @@ body {
 .filters ul li {
   display: inline-block;
   margin: 0 5px; }
-  .filters ul li a h5 {
+  .filters ul li button.btn {
     border-radius: 4px;
     font-size: 12px;
     line-height: 20px;
@@ -171,9 +171,11 @@ body {
     text-transform: uppercase;
     border: #C2C2C2 solid 1px;
     color: #7C7C7C; }
-  .filters ul li a:hover h5, .filters ul li a.active h5 {
-    color: #0077be;
-    border: #0077be solid 1px; }
+    .filters ul li button.btn:hover h5, .filters ul li button.btn.active h5 {
+      color: #0077be;
+      border: #0077be solid 1px; }
+    .filters ul li button.btn:focus {
+      outline: none; }
 
 .contacts h2 {
   color: #000000;

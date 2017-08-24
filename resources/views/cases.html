@@ -32,20 +32,20 @@
             <h2>OUR CASES</h2>
             <img src="../images/shape.png">
         </div>
-        <div class="row filters">
+        <div class="row filters margin-from-top">
             <ul>
-                <li><a href="#" class="active"><h5>All</h5></a></li>
-                <li><a href="#"><h5>Prototype</h5></a></li>
-                <li><a href="#"><h5>Design</h5></a></li>
-                <li><a href="#"><h5>Android</h5></a></li>
-                <li><a href="#"><h5>Apple IOS</h5></a></li>
-                <li><a href="#"><h5>Web App</h5></a></li>
+                <li><button class="btn btn-default active" onclick="filter(this, 'all')">All</button></li>
+                <li><button class="btn btn-default" onclick="filter(this, 'prototype')">Prototype</button></li>
+                <li><button class="btn btn-default" onclick="filter(this, 'design')">Design</button></li>
+                <li><button class="btn btn-default" onclick="filter(this, 'android')">Android</button></li>
+                <li><button class="btn btn-default" onclick="filter(this, 'apple_ios')">Apple IOS</button></li>
+                <li><button class="btn btn-default" onclick="filter(this, 'web_app')">Web App</button></li>
             </ul>
         </div>
     </div>
     <div class="container-fluid work-area">
-        <div class="row margin-from-top">
-            <div class="col-md-4 no_padding">
+        <div class="row margin-from-top" data-filter-result>
+            <div class="col-md-4 no_padding" data-filter-item="prototype">
                 <div class="single-image">
                     <img src="../images/w1.jpg">
                     <div class="image_overlay">
@@ -55,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 no_padding">
+            <div class="col-md-4 no_padding" data-filter-item="design">
                 <div class="single-image">
                     <img src="../images/w2.jpg">
                     <div class="image_overlay">
@@ -65,7 +65,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 no_padding">
+            <div class="col-md-4 no_padding" data-filter-item="android">
                 <div class="single-image">
                     <img src="../images/w3.jpg">
                     <div class="image_overlay">
@@ -75,7 +75,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 no_padding">
+            <div class="col-md-4 no_padding" data-filter-item="apple_ios">
                 <div class="single-image">
                     <img src="../images/w4.jpg">
                     <div class="image_overlay">
@@ -85,7 +85,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 no_padding">
+            <div class="col-md-4 no_padding" data-filter-item="web_app">
                 <div class="single-image">
                     <img src="../images/w5.jpg">
                     <div class="image_overlay">
@@ -95,7 +95,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 no_padding">
+            <div class="col-md-4 no_padding" data-filter-item="prototype">
                 <div class="single-image last_padding">
                     <img src="../images/w6.jpg">
                     <div class="image_overlay">
@@ -176,5 +176,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.4/jquery.nicescroll.min.js"></script>
     <script src="../js/script.js"></script>
+    <script src="../js/filter.js"></script>
 </body>
 </html>
