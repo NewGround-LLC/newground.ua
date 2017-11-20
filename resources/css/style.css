@@ -5,9 +5,11 @@ body {
 
 .header {
   background: url(../images/header_bg.jpg) no-repeat; }
-  .header .navbar .navbar-header img {
-    width: 220px;
-    height: 42px; }
+  .header .navbar .navbar-header {
+    line-height: 70px; }
+    .header .navbar .navbar-header img {
+      width: 220px;
+      height: 42px; }
   .header .navbar ul.navbar-nav li a {
     color: #777;
     text-transform: uppercase;
