@@ -202,6 +202,23 @@ body {
     letter-spacing: 6px;
   }
 }
+.about-text {
+  padding: 0 50px;
+  h4 {
+    margin-top: 50px;
+    text-transform: uppercase;
+  }
+  ul {
+    list-style: none;
+    li:before {
+      content: "•";
+      color: #0077be;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+  }
+}
 // about - the end //
 
 // solutions //

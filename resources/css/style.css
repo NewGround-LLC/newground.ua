@@ -146,6 +146,20 @@ body {
   text-transform: uppercase;
   letter-spacing: 6px; }
 
+.about-text {
+  padding: 0 50px; }
+  .about-text h4 {
+    margin-top: 50px;
+    text-transform: uppercase; }
+  .about-text ul {
+    list-style: none; }
+    .about-text ul li:before {
+      content: "•";
+      color: #0077be;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em; }
+
 .technologies .icon-center {
   float: left;
   margin-left: 7%; }
