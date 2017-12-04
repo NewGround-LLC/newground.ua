@@ -26,21 +26,19 @@ body {
     }
   }
 }
+
 .container {
   &.margin-from-header {
     margin-top: 70px;
   }
 }
-.row, .container-fluid {
-  &.margin-from-top {
-    margin-top: 50px;
-  }
-}
+
 .achievements, .services, .technologies, .workflow {
   img {
     width: 90px;
   }
 }
+
 .work-area {
   .no_padding {
     padding: 0;
@@ -57,7 +55,7 @@ body {
       position: absolute;
       width: 100%;
       height: 230px;
-      background: rgba(0,119,190,.9);
+      background: rgba(0, 119, 190, .9);
       top: 0;
       opacity: 0;
       transition: all 1s;
@@ -83,13 +81,14 @@ body {
     }
   }
 }
-.work-with {
-  color: #636363;
+
+/*.work-with {
+  //color: #636363;
   h3 {
-    font-size: 14px;
-    text-transform: uppercase;
+    //text-transform: uppercase;
   }
-}
+}*/
+
 .contact-info {
   padding-bottom: 21px;
   color: #3d3d3d;
@@ -103,6 +102,7 @@ body {
     font-size: 15px;
   }
 }
+
 .contact-form {
   background-color: #f1f1f1;
   padding: 30px;
@@ -124,6 +124,7 @@ body {
     transition: all 1s;
   }
 }
+
 .footer {
   background-color: #f1f1f1;
   padding-top: 50px;
@@ -152,9 +153,9 @@ body {
           width: 30px;
           height: 30px;
           transition: all 1s;
-          &:hover{
+          &:hover {
             color: #0077be;
-            border-color:#0077be;
+            border-color: #0077be;
           }
         }
       }
@@ -168,40 +169,28 @@ body {
     }
   }
 }
+
 // components - the end //
 
 // index //
-.entry-text {
+.entry-caption {
+  letter-spacing: 6px;
   text-transform: uppercase;
-  h2 {
-    letter-spacing: 6px;
-  }
-  .entry-image {
-    width: 300px;
-    height: 200px;
-  }
 }
+.entry-image {
+  height: 200px;
+}
+
 .services {
   h1 {
     text-transform: uppercase;
     letter-spacing: 6px;
   }
 }
+
 // index - the end //
 
 // about //
-.entry-text {
-  p {
-    color: #404040;
-    font-size: 14px;
-  }
-}
-.positions {
-  h2 {
-    text-transform: uppercase;
-    letter-spacing: 6px;
-  }
-}
 .about-text-container {
   h4 {
     margin-top: 50px;
@@ -219,6 +208,7 @@ body {
     }
   }
 }
+
 // about - the end //
 
 // solutions //
@@ -228,6 +218,7 @@ body {
     margin-left: 7%;
   }
 }
+
 .services {
   h3 {
     color: #333;
@@ -238,6 +229,7 @@ body {
     }
   }
 }
+
 // solutions - the end //
 
 // 1erp //
@@ -251,6 +243,7 @@ body {
     height: 251px;
   }
 }
+
 // 1erp - the end //
 
 // cases //
@@ -281,6 +274,7 @@ body {
     }
   }
 }
+
 // cases - the end //
 
 // contacts //
@@ -295,7 +289,25 @@ body {
     font-size: 16px;
   }
 }
+
 // contacts - the end //
 .fa {
   vertical-align: middle;
+}
+
+.block-item {
+  margin-top: 20px;
+}
+.block-caption {
+  font-size: 26px;
+  line-height: 1.4;
+}
+.block-caption-text {
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.block-row-item-caption {
+  font-size: 20px;
+  line-height: 1.4;
 }

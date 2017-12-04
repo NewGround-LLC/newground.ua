@@ -21,9 +21,6 @@ body {
 .container.margin-from-header {
   margin-top: 70px; }
 
-.row.margin-from-top, .container-fluid.margin-from-top {
-  margin-top: 50px; }
-
 .achievements img, .services img, .technologies img, .workflow img {
   width: 90px; }
 
@@ -59,12 +56,12 @@ body {
       font-size: 14px;
       left: 20px; }
 
-.work-with {
-  color: #636363; }
-  .work-with h3 {
-    font-size: 14px;
-    text-transform: uppercase; }
-
+/*.work-with {
+  //color: #636363;
+  h3 {
+    //text-transform: uppercase;
+  }
+}*/
 .contact-info {
   padding-bottom: 21px;
   color: #3d3d3d; }
@@ -127,23 +124,14 @@ body {
       color: #636363;
       text-transform: uppercase; }
 
-.entry-text {
+.entry-caption {
+  letter-spacing: 6px;
   text-transform: uppercase; }
-  .entry-text h2 {
-    letter-spacing: 6px; }
-  .entry-text .entry-image {
-    width: 300px;
-    height: 200px; }
+
+.entry-image {
+  height: 200px; }
 
 .services h1 {
-  text-transform: uppercase;
-  letter-spacing: 6px; }
-
-.entry-text p {
-  color: #404040;
-  font-size: 14px; }
-
-.positions h2 {
   text-transform: uppercase;
   letter-spacing: 6px; }
 
@@ -202,5 +190,21 @@ body {
 
 .fa {
   vertical-align: middle; }
+
+.block-item {
+  margin-top: 20px; }
+
+.block-caption {
+  font-size: 26px;
+  line-height: 1.4; }
+
+.block-caption-text {
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 1px; }
+
+.block-row-item-caption {
+  font-size: 20px;
+  line-height: 1.4; }
 
 /*# sourceMappingURL=style.css.map */
