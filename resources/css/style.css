@@ -110,10 +110,7 @@ body {
         padding: 0 3px; }
         .footer .social ul.icon-list li a {
           display: inline-block;
-          border: 1px solid #636363;
-          border-radius: 50%;
-          width: 30px;
-          height: 30px;
+          border: none;
           transition: all 1s; }
           .footer .social ul.icon-list li a:hover {
             color: #0077be;
@@ -187,9 +184,6 @@ body {
 .contacts p {
   color: #404040;
   font-size: 16px; }
-
-.fa {
-  vertical-align: middle; }
 
 .block-item {
   margin-top: 20px; }

@@ -55,7 +55,7 @@ body {
       position: absolute;
       width: 100%;
       height: 230px;
-      background: rgba(0, 119, 190, .9);
+      background: rgba(0, 119, 190, .5);
       top: 0;
       opacity: 0;
       transition: all 1s;
@@ -148,10 +148,7 @@ body {
         padding: 0 3px;
         a {
           display: inline-block;
-          border: 1px solid #636363;
-          border-radius: 50%;
-          width: 30px;
-          height: 30px;
+          border: none;
           transition: all 1s;
           &:hover {
             color: #0077be;
@@ -291,9 +288,9 @@ body {
 }
 
 // contacts - the end //
-.fa {
+/*.fa {
   vertical-align: middle;
-}
+}*/
 
 .block-item {
   margin-top: 20px;
