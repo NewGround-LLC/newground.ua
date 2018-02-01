@@ -31,7 +31,7 @@ body {
   .work-area .single-image img {
     width: 100%; }
   .work-area .single-image:hover div.image_overlay {
-    opacity: 1; }
+    opacity: .7; }
   .work-area .single-image .image_overlay {
     position: absolute;
     width: 100%;
