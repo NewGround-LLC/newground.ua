@@ -11,7 +11,7 @@ function handlePageLoaded() {
     });
 }
 
-/*function setScrollBehavior() {
+function setScrollBehavior() {
     'use strict';
     $("html").niceScroll({
         cursorcolor: "#f74d65",
@@ -20,7 +20,7 @@ function handlePageLoaded() {
         horizrailenabled: "false",
         cursorborderradius: "0px"
     });
-}*/
+}
 
 function handleLinkClick() {
     'use strict';
@@ -36,6 +36,12 @@ function handleLinkClick() {
             }
         }
     });
+}
+
+// Used by includes to keep placeholder
+function unWrapPlaceholder() {
+    'use strict';
+    $(window).contents().unwrap();
 }
 
 function init() {
