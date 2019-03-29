@@ -111,6 +111,7 @@ body p, body a, body h1, body h2, body h3, body h4, body h5, body h6 {
 .footer .social ul.icon-list li a {
     display: inline-block;
     border: none;
+    color: #636363;
     transition: all 1s; }
 .footer .social ul.icon-list li a:hover {
     color: #0077be;
