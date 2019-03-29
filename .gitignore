@@ -2,3 +2,6 @@
 resources/**/*.map
 
 docs/*
+
+# MacOS specific
+**/.DS_Store
