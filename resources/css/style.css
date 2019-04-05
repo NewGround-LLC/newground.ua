@@ -88,6 +88,10 @@ body p, body a, body h1, body h2, body h3, body h4, body h5, body h6 {
     margin-bottom: 1px; }
 .contact-info p {
     font-size: 15px; }
+.contact-info-chevron {
+    color: #0077be;
+    padding-bottom: 10px;
+}
 
 .contact-form {
     background-color: #f1f1f1;
