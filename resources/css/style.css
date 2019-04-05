@@ -4,27 +4,34 @@ body {
 body p, body a, body h1, body h2, body h3, body h4, body h5, body h6 {
     font-family: ROBOTO, sans-serif; }
 
-/*.header {
-    background: url(../images/header_bg.jpg) no-repeat; }*/
-.header .navbar .navbar-header {
-    line-height: 70px; }
-.header .navbar ul.navbar-nav li a {
+/*Header*/
+
+.navbar-default .navbar-nav>li>a {
     color: #777;
     text-transform: uppercase;
-    line-height: 42px; }
-.header .navbar ul.navbar-nav li a:hover {
-    color: #0077be; 
-    line-height: 42px; }
-
+    line-height: 42px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #0077be;
+    line-height: 42px;
+}
 .navbar-brand {
     line-height: 72px;
     height: 72px;
     padding:15px;
 }
+
 .navbar-toggle {
     line-height: 42px;
     height: 42px;
     margin:15px;
+}
+/* To avoid second row in navigation */
+@media(max-width:992px){
+    .nav>li>a {
+        padding-left: 10px;
+        padding-right:10px
+    }
 }
 
 .container.margin-from-header {
