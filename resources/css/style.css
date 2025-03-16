@@ -79,6 +79,7 @@ body h6 {
 .services img,
 .workflow img {
   width: 90px;
+  height: 90px;
 }
 
 .work-area .no_padding {
