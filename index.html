@@ -105,7 +105,7 @@
             </div>
             <div class="col-md-3">
                 <img src="resources/images/icon_info_1.png">
-                <h3 class="block-row-item-caption">75 000+ hours of code produced in 2024</h3>
+                <h3 class="block-row-item-caption">75 000+ hours of code produced yearly</h3>
             </div>
         </div>
         <div class="row block-item">
@@ -160,35 +160,54 @@
             <h2 class="block-caption">What we do</h2>
         </div>
         <div class="row services">
-            <div class="col-md-2 col-md-offset-1" >
+            <div class="col-md-3">
                 <a href="resources/views/consulting.html">
                     <img src="resources/images/icon_service_1.png">
                     <h3 class="block-row-item-caption">Consulting</h3>
                 </a>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3">
                 <a href="resources/views/architecture.html">
                     <img src="resources/images/icon_service_2.png">
                     <h3 class="block-row-item-caption">Architecture</h3>
                 </a>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3">
                 <a href="resources/views/development.html">
                     <img src="resources/images/icon_service_3.png">
                     <h3 class="block-row-item-caption">Application development</h3>
                 </a>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3">
                 <a href="resources/views/dev_ops.html">
                     <img src="resources/images/icon_service_4.png">
                     <h3 class="block-row-item-caption">DevOps automation</h3>
                 </a>
             </div>
-            <div class="col-md-2">
-                <a href="https://lvl-up-marketing.com/" target="_blank">
-                    <img src="resources/images/icon5.png">
-                    <h3 class="block-row-item-caption">Digital marketing</h3>
-                </a>
+        </div>
+    </div>
+    <div class="container text-center margin-from-header">
+        <div class="row block-item">
+            <h2 class="block-caption">Our clients say</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div id="client-quotes" class="carousel slide client-quotes" data-ride="carousel" data-interval="5000" data-pause="hover">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <p class="client-quote">&ldquo;We worked with NewGround on the development and maintenance of our app, and the experience was genuinely positive from start to finish. What stood out most was their responsiveness, whenever issues came up, they were quick to jump in and find solutions. They understood what we needed, delivered on time, and were always easy to work with. I&rsquo;d have no hesitation recommending NewGround to anyone looking for a reliable app development partner.&rdquo;</p>
+                            <p class="client-quote-author">Henrik Eiberg, CEO, Body SDS A/S</p>
+                        </div>
+                        <div class="item">
+                            <p class="client-quote">&ldquo;I worked with NewGround to create a tailored industry application from end to end. They allocated outstanding technical and consulting resources to support the process from ideation through implementation. They challenged our assumptions as customers, provided leading technical expertise and strategic advice at critical decision-making points, involved us in release reviews, and helped us pivot where possible to make the best use of our limited budget and timeline. I&rsquo;m pleased with the results of our partnership, not only with what we delivered together, but also with how NewGround handled the entire project.&rdquo;</p>
+                            <p class="client-quote-author">Olya Svyrydenko, Partner Investments &amp; GTM Lead for Americas, Microsoft</p>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#client-quotes" data-slide-to="0" class="active"></li>
+                        <li data-target="#client-quotes" data-slide-to="1"></li>
+                    </ol>
+                </div>
             </div>
         </div>
     </div>
@@ -209,6 +228,19 @@
     <script>
         $(function () {
             $("#page_footer").load("./resources/views/home_footer.html");
+            var $quotes = $("#client-quotes .item");
+            function equalizeQuotes() {
+                var h = 0;
+                $quotes.css("min-height", "").each(function () {
+                    var $it = $(this), shown = $it.hasClass("active");
+                    if (!shown) { $it.css({ display: "block", position: "absolute", width: "100%", visibility: "hidden" }); }
+                    h = Math.max(h, $it.outerHeight());
+                    if (!shown) { $it.css({ display: "", position: "", width: "", visibility: "" }); }
+                });
+                $quotes.css("min-height", h + "px");
+            }
+            equalizeQuotes();
+            $(window).on("resize", equalizeQuotes);
             $("#contacts_form").load("./resources/views/contacts_form.html");
         });
     </script>
