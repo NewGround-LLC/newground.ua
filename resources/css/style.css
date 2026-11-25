@@ -333,3 +333,33 @@ body h6 {
 .navbar-fixed-bottom .navbar-collapse {
   max-height: 440px;
 }
+
+/* Home: "Our clients say" quote slider */
+.client-quotes {
+  padding-bottom: 30px;
+}
+.client-quotes .client-quote {
+  font-family: "Gravity", sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  font-style: italic;
+  color: #000;
+  margin: 0 0 10px;
+}
+.client-quotes .client-quote-author {
+  font-family: "Gravity", sans-serif;
+  font-size: 15px;
+  color: #000;
+  margin: 0;
+}
+.client-quotes .carousel-indicators {
+  bottom: 0;
+  margin-bottom: 0;
+}
+.client-quotes .carousel-indicators li {
+  border-color: #999;
+}
+.client-quotes .carousel-indicators .active {
+  background-color: #555;
+  border-color: #555;
+}
